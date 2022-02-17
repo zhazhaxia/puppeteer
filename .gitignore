@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+/compress
+/dist
+/scripts/cache/
+/scripts/build/cache/
+output.js
+/dll
+/compress
+.vscode/
+/scripts/cache
+
+# local env files
+.env.local
+.env.*.local
+
+yarn.lock
+package-lock.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# package-lock.json
