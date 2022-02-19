@@ -1,6 +1,6 @@
-// dbus-run-session -- bash -c 'DBUS_SYSTEM_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" node --trace-warnings src/puppeteer/webglConsole.js'
-// xvfb-run -a --server-args="-screen 0 1024x768x16 -ac -nolisten tcp -dpi 96 +extension RANDR"  node --trace-warnings src/puppeteer/webglConsole.js
-// node --trace-warnings src/puppeteer/webglConsole.js
+// dbus-run-session -- bash -c 'DBUS_SYSTEM_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" node --trace-warnings src/puppeteer/index.js'
+// xvfb-run -a --server-args="-screen 0 1024x768x16 -ac -nolisten tcp -dpi 96 +extension RANDR"  node --trace-warnings src/puppeteer/index.js
+// node --trace-warnings src/puppeteer/index.js
 const puppeteer = require("puppeteer");
 
 (async () => {
